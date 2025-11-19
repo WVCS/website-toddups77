@@ -1,3 +1,35 @@
-body {
+@charset "utf-8";
 
+body  {
+	background-color: lightblue;
+}
+
+img {
+	width: 400px;
+	border: 15px dotted firebrick;
+}
+
+h1 {
+	color: firebrick;
+	text-decoration: underline ;
+	
+}
+
+
+ul{
+	list-style-type: none;
+	color: firebrick;
+	
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: firebrick;
+	padding: 8px 16px;
+}
+
+li a:hover {
+	background-color: red;
+	color: blue;
 }
